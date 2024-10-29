@@ -4,7 +4,6 @@ const config = require("../config/config");
 
 const handleToken = (req, res, next) => {
   const token = req.cookies.token;
-  console.log(token,'ggg')
   if (!token) {
     return res
       .status(401)

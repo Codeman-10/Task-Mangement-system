@@ -25,9 +25,12 @@ const getAllTasks = async () => {
 
 const addTask = async (body) => {
   try {
+    console.log(body)
     const task = await new Task(body).save();
     return task;
   } catch (error) {
+    console.log(error)
+
     throw new Error(errorMessages.GENERAL.SERVER_ERROR);
   }
 };

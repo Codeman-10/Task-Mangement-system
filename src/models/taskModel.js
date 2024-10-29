@@ -15,7 +15,7 @@ const taskSchema = new mongoose.Schema({
   priority: {
     type: String,
     required: [true, 'Priority is required'],
-    minlength: [6, 'Priority must be at least 6 characters long']
+    minlength: [3, 'Priority must be at least 6 characters long']
   },
   status: {
     type: String,

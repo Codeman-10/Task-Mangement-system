@@ -33,6 +33,7 @@ const addTask = [
       const task = await taskService.addTask(body);
       res.status(200).json({ task, status: 'success' });
     } catch (error) {
+      console.log(error)
       res.status(500).json({ message: error.message });
     }
   },

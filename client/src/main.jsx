@@ -10,6 +10,5 @@ import 'semantic-ui-css/semantic.min.css';
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <App />
-  
   </Provider>
 );

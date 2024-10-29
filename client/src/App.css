@@ -2,3 +2,9 @@
   margin: 0;
 }
 
+.app-container{
+  display: grid;
+  background-color: whitesmoke;
+  grid-template-columns: 280px 1fr;
+  width: 100%;
+}

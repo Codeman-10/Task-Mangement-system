@@ -1,11 +1,12 @@
 .header {
   display: grid;
-  height: 80px;
-  background: rgb(126, 180, 224);
-  grid-template-columns: repeat(3, 1fr);
-  padding: 0px 20px;
+  background:white;
+  grid-template-columns: 1fr 200px;
+  padding: 0px 15px;
   column-gap: 15px;
   width: 100%;
+  border-radius: 15px;
+
   .left-header {
     height: inherit;
     display: flex;
@@ -44,7 +45,9 @@
       align-items: center;
       justify-content: center;
       .avatar-img {
+        cursor: pointer;
         height: 50px;
+        width: auto;
         object-fit: contain;
       }
     }

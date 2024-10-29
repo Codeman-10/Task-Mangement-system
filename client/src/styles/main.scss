@@ -3,9 +3,12 @@
 
 @import 'components/button';
 @import 'components/basic-modal.scss';
+@import 'components/customDatepicker.scss';
 
 @import 'pages/home.scss';
 @import 'pages/login.scss';
 
 
-@import 'pages/components/header.scss'
+@import 'pages/components/header.scss';
+@import 'pages/components/sidebar.scss';
+@import 'pages/components/dashboard.scss'

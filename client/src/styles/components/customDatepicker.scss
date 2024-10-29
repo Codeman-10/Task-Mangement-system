@@ -1,0 +1,20 @@
+.custom-input {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+  }
+  
+  .custom-input input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+  }
+  
+  .custom-input:hover {
+    background-color: #f0f0f0;
+  }
+  

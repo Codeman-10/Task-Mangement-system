@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 
-function BasicModal({ children }) {
-  const [isOpen, setIsOpen] = useState(true);
-
+function BasicModal({ children, isOpen, onClose }) {
   const handleClose = () => {
-    setIsOpen(false);
     if (onClose) {
       onClose(); // Call the onClose prop if provided
     }
